@@ -1,0 +1,41 @@
+@import "navbar";
+@import "footer";
+
+body{
+  font-family: 'Mulish', sans-serif;
+
+  .row.image{
+    background:center / cover no-repeat url(/Assets/nasa-Q1p7bh3SHj8-unsplash.jpg);
+    height:35%;
+  }
+
+  h2.quote{
+    position:relative;
+    width:100%;
+    text-align: center;
+    color:$light-color;
+    top:25%;
+    font-weight: bolder;
+  }
+
+
+  // Services section + cta
+
+  .services h3{
+    font-size: 55px;
+    margin-top:10px;
+    line-height: 90px;
+  
+  }
+
+  button.custom{
+    background-color: $navy-color;
+    border: none;
+    width:100%;
+    margin:1.5em auto;
+  }
+}
+
+
+
+

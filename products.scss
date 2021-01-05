@@ -1,0 +1,87 @@
+@import "navbar";
+@import "footer";
+
+body{
+  font-family:  'Mulish', sans-serif;
+
+  h1.custom{
+    color:$navy-color;
+    padding:25px;
+  }
+
+
+  .text{
+    margin-right:5%;
+    margin-top:5%;
+  }
+  .image{
+    margin-left:5%;
+    margin-top:5%;
+  }
+
+  .text.two,.text.four{
+    margin-right:0;
+    margin-left:5%;
+  }
+
+  .image.two,.image.four{
+    margin-left:0;
+   margin-right:5%;
+  }
+  
+  .image.four, .text.four{
+    margin-bottom:20px;
+  }
+
+   h2{
+    background-color:$navy-color;
+    padding:30px;
+    color:$light-color;
+    font-size:50px;
+  }
+
+  .row p{
+    font-size:30px;
+    padding:10% 10% 10% 0;
+  }
+  
+}
+  
+@media only screen and (max-width: 768px){
+  .text{
+    margin-right:0;
+    margin-top:5%;
+    width:100%;
+  }
+  .image{
+    margin-left:0;
+    margin-top:5%;
+  }
+
+  .text.two,.text.four{
+    margin-right:0;
+    margin-left:0;
+  }
+
+  .image.two,.image.four{
+    margin-left:0;
+   margin-right:0;
+  }
+
+ 
+}
+
+@media only screen and (max-width:1024px){
+
+  h2{
+    background-color:$navy-color;
+    padding:10px;
+    color:$light-color;
+    font-size:30px;
+  }
+
+  .row p{
+    font-size:20px;
+    padding:0 10% 10% 0;
+  }
+}

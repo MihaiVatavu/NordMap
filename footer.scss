@@ -1,0 +1,27 @@
+$light-color:#e5e5e5;
+$white-color:#ffffff;
+$navy-color:#1D3557;
+$pink-color:#E63946;
+
+.footer{
+  background-color: $navy-color;
+  height:50px;
+  margin:0;
+  padding:0;
+  color:$light-color;
+  p{
+    padding-top:15px;
+    display:flex;
+    justify-content: space-evenly;
+
+    a{
+      text-decoration: none;
+      color: $light-color;
+    }
+
+    a:hover{
+      color:#0275d8;
+    }
+  }
+
+}
