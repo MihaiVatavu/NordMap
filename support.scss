@@ -1,0 +1,39 @@
+@import "navbar";
+@import "footer";
+
+body{
+
+  font-family:  'Mulish', sans-serif;
+
+  // Search bar
+  .search{
+    position:relative;
+    margin-top: 5%;
+  }
+
+  .search i{
+    position:absolute;
+    top:15%;
+    left:2%;
+
+  }
+
+  .search input{
+    font-size: 25px;
+    width:75%;
+    border-radius:15px;
+    
+  }
+
+  // Questions
+
+  .questions h2{
+    padding:3% 0 3% 0;
+  }
+
+  .questions p{
+    font-size:32px;
+    padding:3% 0 3% 0;
+  }
+
+}
