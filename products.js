@@ -1,3 +1,10 @@
+$(function () {
+  if ($(window).width() < 1000) {
+    $('#imgtwo').addClass('order-last');
+    $('#imgfour').addClass('order-last');
+  }
+});
+
 $(window).on('resize', function () {
   if ($(window).width() < 1000) {
     $('#imgtwo').addClass('order-last');
