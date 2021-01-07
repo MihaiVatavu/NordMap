@@ -46,7 +46,7 @@
         <form action="" class="form search">
           <i class="fas fa-search fa-2x"></i>
           <input class="form-control mr-sm-2" type="search" placeholder="        How can we help you?"
-            aria-label="Search">
+            aria-label="Search" id="search">
         </form>
         <!-- Questions -->
         <div class="questions">
@@ -75,20 +75,69 @@
 
       <!-- Contact Us -->
       <div class="col-lg-5">
-
+        <div class="contact">
+          <h2 class="display-4">Contact Us</h2>
+          <form action="" class="needs-validation" novalidate>
+            <div class="row padding">
+              <div class="col-sm-12">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" name="name" id="name" class="form-control" required>
+                <div class="valid-feedback">
+                  Thank you!
+                </div>
+                <div class="invalid-feedback">
+                  Please enter your name!
+                </div>
+              </div>
+              <div class="col-sm-12">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" name="email" id="email" class="form-control" required>
+                <div class="valid-feedback">
+                  Thank you!
+                </div>
+                <div class="invalid-feedback">
+                  Please enter a valid email!
+                </div>
+              </div>
+            </div>
+            <div class="row padding">
+              <div class="form-group col-lg-12">
+                <label for="message" class="form-label">Message</label>
+                <textarea name="message" id="message" cols="20" rows="5" class="form-control" required></textarea>
+                <div class="valid-feedback">
+                  Thank you!
+                </div>
+                <div class="invalid-feedback">
+                  Please write a message!
+                </div>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary btn-lg margin">Send</button>
+          </form>
+          <div class="contact">
+            <div class="tel">
+              <p class="fs-3">Telephone : 0123-456-789</p>
+            </div>
+            <div id="map-container-google-1" class="z-depth-1-half map-container">
+              <iframe src="https://maps.google.com/maps?q=london&t=&z=13&ie=UTF8&iwloc=&output=embed" class="custom-map"
+                frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
       </div>
-
-
     </div>
   </main>
   <!--  -->
 
   <footer class="footer">
-    <p class="text-center">Copyright&#169 NordMap<span><a href="#" class="contact">Contact Us</a></span> </p>
+    <p class="text-center">Copyright&#169 NordMap<span><a href="/support.html" class="contact">Contact Us</a></span></p>
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
     crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="/support.js"></script>
+  <script src="/supportvalidation.js"></script>
 </body>
 
 </html>
