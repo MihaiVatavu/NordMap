@@ -62,80 +62,44 @@ body {
   font-family: 'Mulish', sans-serif;
 }
 
-body .search {
-  position: relative;
-  margin-top: 5%;
-}
-
-body .search i {
-  position: absolute;
-  top: 15%;
-  left: 2%;
-}
-
-body .search input {
-  font-size: 25px;
+body .row {
   width: 75%;
-  border-radius: 15px;
+  margin: 0 auto 1%;
+  padding: 2%;
 }
 
-body .questions h2 {
-  padding: 3% 0 3% 0;
+body .row .custom {
+  padding: 3% 5% 4% 5%;
 }
 
-body .questions p {
-  font-size: 32px;
-  padding: 3% 0 3% 0;
+body .row h2 {
+  margin: 10px 10px 30px 10px;
 }
 
-body .contact {
-  width: 80%;
-  margin: 2% auto;
-  font-size: 25px;
-}
-
-body .contact h2 {
-  padding: 3% 0 3% 0;
-  width: 100%;
-  text-align: center;
-}
-
-body .padding {
-  padding: 10px;
-}
-
-body .margin {
+body .row label, body .row input, body button {
   margin: 10px;
+  font-size: 25px;
 }
 
 body .btn {
+  margin-top: 5%;
   width: 100%;
   background: #1D3557;
   border: none;
   border-radius: 0;
-}
-
-body .tel p {
-  text-align: center;
-}
-
-body .custom-map {
-  width: 100%;
-  height: 25vh;
-  float: right;
-}
-
-body .hide {
-  visibility: hidden;
+  padding: 10px;
 }
 
 @media only screen and (max-width: 600px) {
   body {
     font-size: 18px;
   }
-  body .questions p {
-    font-size: 22px;
-    padding: 3% 0 3% 0;
+  body .row {
+    width: 95%;
+    margin: 0 auto 1%;
+    padding: 2%;
+  }
+  body h2 {
     text-align: center;
   }
 }
