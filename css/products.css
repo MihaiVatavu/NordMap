@@ -60,21 +60,23 @@
 
 body {
   font-family: 'Mulish', sans-serif;
+  position: relative;
 }
 
 body h1.custom {
   color: #1D3557;
-  padding: 25px;
+  padding: 5px;
+  margin-top: 5%;
 }
 
 body .text {
   margin-right: 5%;
-  margin-top: 5%;
+  margin-top: 3%;
 }
 
 body .image {
   margin-left: 5%;
-  margin-top: 5%;
+  margin-top: 3%;
 }
 
 body .text.two, body .text.four {

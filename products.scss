@@ -3,20 +3,22 @@
 
 body{
   font-family:  'Mulish', sans-serif;
+  position:relative;
 
   h1.custom{
     color:$navy-color;
-    padding:25px;
+    padding:5px;
+    margin-top:5%;
   }
 
 
   .text{
     margin-right:5%;
-    margin-top:5%;
+    margin-top:3%;
   }
   .image{
     margin-left:5%;
-    margin-top:5%;
+    margin-top:3%;
   }
 
   .text.two,.text.four{

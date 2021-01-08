@@ -64,7 +64,7 @@ body {
 
 body .row.image {
   background: center/cover no-repeat url(/Assets/nasa-Q1p7bh3SHj8-unsplash.jpg);
-  height: 35%;
+  height: 40%;
 }
 
 body h2.quote {
@@ -72,7 +72,7 @@ body h2.quote {
   width: 100%;
   text-align: center;
   color: #e5e5e5;
-  top: 25%;
+  top: 40%;
   font-weight: bolder;
 }
 
