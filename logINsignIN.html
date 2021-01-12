@@ -8,12 +8,13 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/css/logINsignIN.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <title>NordMAP| Log IN / Sign In</title>
 </head>
 
 <body>
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-sm navbar-dark">
+  <nav class="navbar navbar-expand-sm navbar-dark" id="navbar">
     <div class="container">
       <span class="navbar-brand custom h1">NordMap</span>
       <button type="button" class="navbar-toggler custom-toggler" data-bs-toggle="collapse" data-bs-target="#mainNav"
@@ -44,18 +45,12 @@
         <form action="" class="needs-validation" novalidate>
           <label for="email" class="form-label">Email</label>
           <input type="email" name="email" id="email" class="form-control" placeholder="Enter your email" required>
-          <div class="valid-feedback">
-            Thank you!
-          </div>
           <div class="invalid-feedback">
-            Please enter your email email!
+            Please enter your email!
           </div>
           <label for="password" class="form-label">Password</label>
           <input type="password" name="password" id="password" class="form-control" placeholder="Enter your password"
             required>
-          <div class="valid-feedback">
-            Thank you!
-          </div>
           <div class="invalid-feedback">
             Please enter your password!
           </div>
@@ -70,35 +65,23 @@
         <form action="" class="needs-validation" novalidate>
           <label for="name" class="form-label">Name</label>
           <input type="text" name="Name" id="name" class="form-control" placeholder="Enter your name" required>
-          <div class="valid-feedback">
-            Thank you!
-          </div>
           <div class="invalid-feedback">
             Please enter your name!
           </div>
           <label for="email" class="form-label">Email</label>
           <input type="email" name="email" id="email" class="form-control" placeholder="Enter a valid email" required>
-          <div class="valid-feedback">
-            Thank you!
-          </div>
           <div class="invalid-feedback">
             Please enter a valid email!
           </div>
           <label for="password" class="form-label">Password</label>
           <input type="password" name="password" id="password" class="form-control" placeholder="Enter a password"
             required>
-          <div class="valid-feedback">
-            Thank you!
-          </div>
           <div class="invalid-feedback">
-            Please enter a your password!
+            Please enter your password!
           </div>
           <label for="confirm-password" class="form-label">Password</label>
           <input type="password" name="confirm-password" id="confirm-password" class="form-control"
             placeholder="Confirm your password" required>
-          <div class="valid-feedback">
-            Thank you!
-          </div>
           <div class="invalid-feedback">
             Please confirm your password!
           </div>
